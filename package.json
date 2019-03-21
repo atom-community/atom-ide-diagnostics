@@ -1,0 +1,61 @@
+{
+  "name": "atom-ide-diagnostics",
+  "main": "./lib/main.js",
+  "version": "0.0.0",
+  "description": "A replacement of the diagnostics functionality from the original Atom-IDE / Nuclide package developed by Facebook.",
+  "keywords": [
+    "atom-package",
+    "atom-ide",
+    "diagnostics"
+  ],
+  "repository": "https://github.com/atom-ide-community/atom-ide-diagnostics",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "atom-ide-markdown-service",
+    "busy-signal",
+    "intentions",
+    "linter"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^5.0.0",
+    "dompurify": "^1.0.10",
+    "etch": "^0.14.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/travis-cli": "^7.5.2",
+    "@semantic-release/apm-config": "^6.0.1",
+    "@types/atom": "^1.31.1",
+    "@types/dompurify": "0.0.32",
+    "@types/node": "^10.12.18",
+    "atom-languageclient": "^0.9.9",
+    "commitlint": "^7.5.2",
+    "husky": "^1.3.1",
+    "prettier": "1.16.4",
+    "semantic-release": "^15.13.8"
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "consumedServices": {
+    "markdown-renderer": {
+      "versions": {
+        "0.1.0": "consumeMarkdownRenderer"
+      }
+    }
+  }
+}
