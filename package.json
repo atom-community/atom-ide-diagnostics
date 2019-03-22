@@ -57,14 +57,31 @@
         "0.1.0": "consumeMarkdownRenderer"
       }
     },
-    "linter-indie": {
-      "versions": {
-        "2.0.0": "consumeLinterV2"
-      }
-    },
     "code-actions": {
       "versions": {
         "0.1.0": "consumeCodeActionProvider"
+      }
+    },
+    "busy-signal": {
+      "versions": {
+        "1.0.0": "consumeBusySignal"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideLinterUI"
+      }
+    },
+    "intentions:list": {
+      "versions": {
+        "1.0.0": "provideIntentions"
       }
     }
   }
