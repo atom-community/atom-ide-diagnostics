@@ -81,7 +81,12 @@
     },
     "intentions:list": {
       "versions": {
-        "1.0.0": "provideIntentions"
+        "1.0.0": "provideIntentionsList"
+      }
+    },
+    "intentions:highlight": {
+      "versions": {
+        "1.0.0": "provideIntentionsHighlight"
       }
     }
   }
