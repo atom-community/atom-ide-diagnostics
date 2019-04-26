@@ -14,6 +14,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "package-deps": [
+    "atom-ide-datatip",
     "atom-ide-markdown-service",
     "busy-signal",
     "intentions",
@@ -70,6 +71,11 @@
     "status-bar": {
       "versions": {
         "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatipService"
       }
     }
   },
