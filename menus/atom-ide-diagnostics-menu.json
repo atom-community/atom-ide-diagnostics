@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Source Code Actions...",
+        "command": "intentions:show"
+      }
+    ]
+  }
+}
