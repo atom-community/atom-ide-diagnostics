@@ -1,6 +1,9 @@
 # atom-ide-diagnostics package
 
-[![Build Status](https://badgen.net/travis/atom-ide-community/atom-ide-diagnostics/master)](https://travis-ci.org/atom-ide-community/atom-ide-diagnostics)
+![Build Status (Github Actions)](https://github.com/atom-ide-community/atom-ide-diagnostics/workflows/CI/badge.svg)
+[![Dependency Status](https://david-dm.org/atom-ide-community/atom-ide-diagnostics.svg)](https://david-dm.org/atom-ide-community/atom-ide-diagnostics)
+[![apm](https://img.shields.io/apm/dm/atom-ide-diagnostics.svg)](https://github.com/atom-ide-community/atom-ide-diagnostics)
+[![apm](https://img.shields.io/apm/v/atom-ide-diagnostics.svg)](https://github.com/atom-ide-community/atom-ide-diagnostics)
 
 A replacement of the diagnostics functionality from the original Atom-IDE / Nuclide package developed by Facebook.
 
@@ -9,11 +12,12 @@ A replacement of the diagnostics functionality from the original Atom-IDE / Nucl
 1. Install `atom-ide-diagnostics` in Atom.
 
 2. Install an IDE language package that you would like to use:
-  * TypeScript & JavaScript [ide-typescript](https://atom.io/packages/ide-typescript)
-  * Python [ide-python](https://atom.io/packages/ide-python)
-  * Rust [ide-rust](hhttps://atom.io/packages/ide-rust)
 
-  You can also search for [packages](https://atom.io/packages/search?q=IDE) in Atom.
+- TypeScript & JavaScript [ide-typescript](https://atom.io/packages/ide-typescript)
+- Python [ide-python](https://atom.io/packages/ide-python)
+- Rust [ide-rust](hhttps://atom.io/packages/ide-rust)
+
+You can also search for [packages](https://atom.io/packages/search?q=IDE) in Atom.
 
 3. Install `busy-signal` package in Atom, which is used for signaling background tasks.
 
