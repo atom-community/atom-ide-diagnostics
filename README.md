@@ -1,6 +1,9 @@
 # atom-ide-diagnostics package
 
-[![Build Status](https://badgen.net/travis/atom-ide-community/atom-ide-diagnostics/master)](https://travis-ci.org/atom-ide-community/atom-ide-diagnostics)
+![Build Status (Github Actions)](https://github.com/atom-ide-community/atom-ide-diagnostics/workflows/CI/badge.svg)
+[![Dependency Status](https://david-dm.org/atom-ide-community/atom-ide-diagnostics.svg)](https://david-dm.org/atom-ide-community/atom-ide-diagnostics)
+[![apm](https://img.shields.io/apm/dm/atom-ide-diagnostics.svg)](https://github.com/atom-ide-community/atom-ide-diagnostics)
+[![apm](https://img.shields.io/apm/v/atom-ide-diagnostics.svg)](https://github.com/atom-ide-community/atom-ide-diagnostics)
 
 A replacement of the diagnostics functionality from the original Atom-IDE / Nuclide package developed by Facebook.
 
