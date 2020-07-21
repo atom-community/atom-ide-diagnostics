@@ -4,7 +4,7 @@ const plugins = createPlugins(["js"], true);
 
 export default [
   {
-    input: "src/main.js",
+    input: "lib/main.js",
     output: [
       {
         dir: "dist",
